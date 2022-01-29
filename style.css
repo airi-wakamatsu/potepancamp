@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+}  
+
+
+
+header{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    
+}    
+.header-container{
+    display: flex;
+    max-width: 100%; 
+    position: relative;
+    align-items: center;
+    word-break: break-all;
+    box-sizing: border-box;
+}
+
+.title{
+    color: #000;
+    text-decoration: none;
+    word-break: break-all;
+    cursor: pointer;
+    display: block;
+}
+
+
+.menu-group{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+
+    
+    
+}
+.menu-item{
+    color: black;
+    text-decoration: none;
+    margin-left: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+span{
+    display: block;
+}
+
+    
+
+
+
+
+
+
+
+.menu-item_button{
+    color: white;
+    background-color: #F79214;
+    border: none;
+    border-radius: 38px;
+    cursor: pointer; 
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    box-sizing: border-box;
+    width: auto;
+    font-size: 12px;
+    height: 40px;
+    padding: 0 20px;
+}
+
+
+
+.first-view{
+    background-image: none;
+    padding-top: 0;
+    padding-bottom: 35px;
+    background-size: cover;
+    background-position:center;
+}
+.first-view_main-image{
+    display: block;
+    width: 100%
+}
+img {
+    border: 0;
+    vertical-align: middle;
+
+}
+.first-view_container{
+    margin-top: -45vw;
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+.first-view_content{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.first-view_content_title{
+    color:black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+.first-view_content_images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+
+}
+.first-view_content_images img{
+    width: 27.5%;
+    margin-right: 8px;
+}
+.first-view_content_images img:nth-of-type(2) {
+    width: 40%;
+    margin-right: 8px;
+}
+.first-view_content_images img:last-of-type {
+    margin-right: 0;
+    width: 27.5%;
+}
+.first-view_content_buttons {
+    display: flex;
+    flex-direction: column;
+
+}
+.first-view_content_buttons a {
+
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    width: 100% !important;
+    background-color: #F79214;
+    border: none;
+    border-radius: 38px;
+    cursor: pointer; 
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    height: 64px;
+    word-break: break-all;
+    box-sizing: border-box;
+}
+.first-view_content_buttons a:first-of-type {
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+.first-view_content_buttons a:last-of-type {
+    height: 45px;
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    color: #000;
+
+}
+
+
+
+
+
+
+
+
+
